@@ -17,19 +17,18 @@ Este proyecto responde esa pregunta construyendo un pipeline completo de anális
 ```
 📁 riesgo-crediticio/
 │
-├── 📓 01_analisis_exploratorio.py        # Pipeline Python: limpieza + EDA completo
-├── 🗄️  02_analisis_avanzado.sql          # 12 scripts SQL: descriptivo + avanzado
+├── 📓 01_analisis_exploratorio.ipynb      # Pipeline Python: limpieza + EDA completo
+├── 🗄️  02_setup_and_ddl.sql              # DDL: configuración y estructura de base de datos
+├── 🗄️  03_consultas_analiticas.sql       # 12 scripts SQL: descriptivo + avanzado
+├── 📄 04_README.md                        # Documentación del proyecto
 │
-├── 📁 data/
-│   ├── 01_datos_limpios_para_sql.csv    # Dataset limpio → input MySQL (sep: ;)
-│   ├── 02_datos_para_powerbi.csv        # Dataset limpio → input Power BI (sep: ,)
-│   └── datos_para_dashboard.csv         # Archivo legacy de compatibilidad
+├── 📁 datos/
+│   ├── 01_datos_limpios_para_sql.csv     # Dataset limpio → input MySQL (sep: ;)
+│   ├── 02_datos_para_powerbi.csv         # Dataset limpio → input Power BI (sep: ,)
+│   └── datos_para_dashboard.csv          # Archivo legacy de compatibilidad
 │
-├── 📁 dashboard/
-│   └── riesgo_crediticio.pbix           # Dashboard Power BI interactivo
-│
-└── README.md
-```
+└── 📁 dashboard/
+    └── riesgo_crediticio.pbix            # Dashboard Power BI interactivo
 
 ---
 
