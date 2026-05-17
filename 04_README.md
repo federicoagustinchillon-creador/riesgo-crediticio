@@ -156,6 +156,7 @@ DIVIDE(
 - **Ranking horizontal:** mora por destino del crédito (6 categorías)
 - **Treemap:** distribución de préstamos por tipo de vivienda
 - **Filtros interactivos:** tipo de vivienda y grado del crédito (A–G)
+- **Hoja 2 — Monitoreo Predictivo y Scoring:** en desarrollo — regresión logística y score de riesgo compuesto visual (V3)
 
 ---
 
@@ -202,7 +203,7 @@ V2 — Enriquecimiento con datos macroeconómicos argentinos
   • Integración con IPC del INDEC (deflactar ingresos)
   • Conexión directa MySQL → Power BI vía ODBC
 
-V3 — Modelo predictivo de scoring
+V3 — Completar Hoja 2 "Monitoreo Predictivo y Scoring" en Power BI
   • Regresión logística (estándar regulatorio Basilea III)
   • Random Forest con comparación de métricas
   • AUC-ROC, matriz de confusión, feature importance
